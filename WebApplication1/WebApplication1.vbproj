@@ -250,6 +250,13 @@
     </Compile>
     <Compile Include="Controllers\HomeController.vb" />
     <Compile Include="Startup.vb" />
+    <Compile Include="testforgit.aspx.designer.vb">
+      <DependentUpon>testforgit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testforgit.aspx.vb">
+      <DependentUpon>testforgit.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -284,6 +291,7 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="testforgit.aspx" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.vbhtml" />
     <Content Include="Views\Account\ConfirmEmail.vbhtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.vbhtml" />
